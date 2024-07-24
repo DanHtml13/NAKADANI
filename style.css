@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+li{font-size: 1.25em;}
+
+
+button{
+    font-size: 1.em;
+    font-weight: bold;
+    border-radius: 13px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color:rgb(43, 122, 226);
+    padding: 10px 20px;
+    margin: 20px;
+}
+button:hover{
+    background-color:rgb(22, 12, 110)
+}
+
+
+
+.contenedor{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{color:rgb(43, 122, 226);}
+.Color-acento{color: rgba(0, 0, 0, 0.781);}
+
+header{
+    background-color: rgb(39, 39, 43);
+    color: rgb(245, 245, 245);
+}
+
+
+header .container{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav{
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+header a:hover{
+    color:rgb(43, 122, 226)
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgb(0,0,0,0.5),
+        rgb(0,0,0,0.5)
+    )
+    ,url("media/lo-que-debes-saber-antes-de-crear-un-sitio-web.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+#caracteristicas{
+    text-align: center;
+}
+
+#caracteristicas{
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+#caracteristicas{
+    padding: 200px 12px;
+}
+
+#caracteristicas h2{
+    margin-top: 0;
+}
+
+
+#Llamado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgb(0,0,0,0.5),
+        rgb(0,0,0,0.5)
+    )
+    ,url("media/dev.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+
+#red{
+    text-align: left;
+}
+
+#red{
+    background-color:  rgb(43, 122, 226);
+    color: white;
+}
+
+#red{
+    padding: 150px 12px;
+}
+
+#red h3{
+    margin-top: 0;
+}
+
+#service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgb(0,0,0,0.5),
+        rgb(0,0,0,0.5)
+    )
+    ,url("media/Screen-Shot-2017-07-27-at-12.49.28-p.m..png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#service h3{
+    color: rgb(245,245,245);
+}
+
+#quienessomos{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#quienessomos .container{
+    padding: 150px 12px;
+}
+
+#quienessomos h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+
+#quienessomos .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+
+
+
+#contacto{
+    text-align: left;
+}
+
+#contacto li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgb(39, 39, 43);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
